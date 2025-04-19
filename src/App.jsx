@@ -27,31 +27,31 @@ function App() {
   ,lesson_categ:'Design'
   ,card_main_text:'Supervised Machine Learning: Regression and Classification'
   ,card_sub_text:'For athletes, high altitude produces two contradi effects on performance.'
-  ,card_bottom_btn:'Join',card_logo_img:"/assets/imags/popularcourses/Rectangle1.svg"},
+  ,card_bottom_btn:'Join',card_logo_img:"assets/imags/popularcourses/Rectangle1.svg"},
   {card_top_icon:"assets/imags/popularcourses/top-div-icon-blue.svg"
     ,lesson_number:'16x Lesson'
     ,lesson_categ:'Marketing'
     ,card_main_text:'Programming for Everybody (Getting Started with Python)'
     ,card_sub_text:'For athletes, high altitude produces two contradi effects on performance.'
-    ,card_bottom_btn:'Join',card_logo_img:"/assets/imags/popularcourses/Rectangle1.svg"},
+    ,card_bottom_btn:'Join',card_logo_img:"assets/imags/popularcourses/Rectangle1.svg"},
     {card_top_icon:"assets/imags/popularcourses/top-div-icon-pink.svg"
       ,lesson_number:'38x Lesson'
       ,lesson_categ:'Programming'
       ,card_main_text:'Leading Teams: Developing as a Leader'
       ,card_sub_text:'For athletes, high altitude produces two contradi effects on performance.'
-      ,card_bottom_btn:'Join',card_logo_img:"/assets/imags/popularcourses/Rectangle1.svg"},
+      ,card_bottom_btn:'Join',card_logo_img:"assets/imags/popularcourses/Rectangle1.svg"},
       {card_top_icon:"assets/imags/popularcourses/top-div-icon-purbl.svg"
         ,lesson_number:'25x Lesson'
         ,lesson_categ:'Design'
         ,card_main_text:'Powerful mental tools to help you master tough subjects'
         ,card_sub_text:'For athletes, high altitude produces two contradi effects on performance.'
-        ,card_bottom_btn:'Join',card_logo_img:"/assets/imags/popularcourses/Rectangle1.svg"},
+        ,card_bottom_btn:'Join',card_logo_img:"assets/imags/popularcourses/Rectangle1.svg"},
         {card_top_icon:"assets/imags/popularcourses/top-div-icon-orange.svg"
           ,lesson_number:'16x Lesson'
           ,lesson_categ:'Marketing'
           ,card_main_text:'Programming for Everybody (Getting Started with Python)'
           ,card_sub_text:'For athletes, high altitude produces two contradi effects on performance.'
-          ,card_bottom_btn:'Join',card_logo_img:"/assets/imags/popularcourses/Rectangle1.svg"},
+          ,card_bottom_btn:'Join',card_logo_img:"assets/imags/popularcourses/Rectangle1.svg"},
           {card_top_icon:"assets/imags/popularcourses/top-div-icon-yallow.svg"
             ,lesson_number:'38x Lesson'
             ,lesson_categ:'Programming'
