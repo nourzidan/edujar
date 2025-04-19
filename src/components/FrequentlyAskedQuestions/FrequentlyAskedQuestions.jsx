@@ -26,7 +26,7 @@ const toggleAnswer = (index) => {
                 <div key={index} className={`faq-right-item faq-right-item-${index}`}>
                     <div className={`faq-right-item-q faq-right-item-q-${index}`}>
                         <p className='faq-main'>{element.question}</p>
-                        <img  onClick={()=> toggleAnswer(index)} className='faq-plus-img' src="/assets/imags/frequentlyquestions/plus.svg" alt=""/>
+                        <img  onClick={()=> toggleAnswer(index)} className='faq-plus-img' src="assets/imags/frequentlyquestions/plus.svg" alt=""/>
                     </div>
                     <div className={`answer answer-${index} `} style={{ display: visibleIndex === index ? 'block' : 'none' }} ><p>{element.answer}</p></div>
                     </div>

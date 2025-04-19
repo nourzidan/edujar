@@ -8,8 +8,8 @@ export default function PopularCourses({pc_carditem}) {
     <div className='pc-text-btn-div'>
         <p className='pc-second-text'>Let’s join our best classes with our famous instructor and institutes</p>
         <div className='pc-btn-div'>
-            <button className='pc-btn '><img className='arrow-img' src="/assets/imags/popularcourses/Vector9.svg" alt="" /></button>
-            <button className='pc-btn '><img className='arrow-img' src="/assets/imags/popularcourses/Vector19.svg" alt="" /></button>
+            <button className='pc-btn '><img className='arrow-img' src="assets/imags/popularcourses/Vector9.svg" alt="" /></button>
+            <button className='pc-btn '><img className='arrow-img' src="assets/imags/popularcourses/Vector19.svg" alt="" /></button>
             </div>
 
     </div>
