@@ -26,7 +26,7 @@ const handlePrevClick = () => {
         <p className='oc-sub-text no-bg'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
         <p className='oc-slider-name no-bg'>{clients[clintname].name}</p>
         <div className='oc-slider-div no-bg'>
-            <img onClick={handlePrevClick} className='oc-prives no-bg' src="/assets/imags/ourclints/prives.svg" alt="" />
+            <img onClick={handlePrevClick} className='oc-prives no-bg' src="assets/imags/ourclints/prives.svg" alt="" />
             
             {clients.map((element,index)=>{
                 return(<div className='oc-img-div no-bg' key={index}>
@@ -35,7 +35,7 @@ const handlePrevClick = () => {
             </div>
                 )
             })}
-            <img onClick={handleNextClick} className='oc-next no-bg' src="/assets/imags/ourclints/next.svg" alt="" />
+            <img onClick={handleNextClick} className='oc-next no-bg' src="assets/imags/ourclints/next.svg" alt="" />
             
         </div>
         </div>
