@@ -1,0 +1,176 @@
+.topcategories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    margin-top: 94px;
+}
+.topcategories .text-div {
+    text-align:center;
+    gap: 10px;
+}
+.topcategories .text-div .explor-p{
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54.6px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.topcategories .clickon-p{
+    font-family:    "Poppins", sans-serif ;
+    font-weight: 500;
+    
+    line-height: 27px;
+    color: #D9ECFF;
+
+}
+.topcat-bar-div{
+    width: 100%;
+    height: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url( "/assets/imags/top-categories/topcategories-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bar-card-container{
+    display: flex;
+    gap: 20px;
+    background: transparent;
+    height: 195px;
+}
+.topcat-card{
+    height: 195px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: #DADAF780 2px solid;
+    border-radius: 20px;
+    background-color: #364C65;
+    
+
+}
+.topcat-card-div-img-1,.topcat-card-div-img-2,.topcat-card-div-img-3,.topcat-card-div-img-4{
+    height: 61px;
+}
+.topcat-card-div-img-1{
+    position: relative;
+    
+}
+.topcat-card-div-img-1::after{
+    content: " ";
+    background-image:url("/assets/imags/top-categories/Chat_alt_3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 34.43px;
+    height: 30.79px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+
+}
+
+.topcat-card-div-img-2{
+    position: relative;
+    
+}
+.topcat-card-div-img-2::after{
+    content: " ";
+    background-image:url("/assets/imags/top-categories/card-3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 23.84px;
+    height: 23.6px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+
+}
+
+.topcat-card-div-img-3{
+    position: relative;
+    
+}
+.topcat-card-div-img-3::after{
+    content: " ";
+    background-image:url("/assets/imags/top-categories/Chart_pin.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30.94px;
+    height: 30.71px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topcat-card-div-img-4{
+    position: relative;
+    
+}
+.topcat-card-div-img-4::after{
+    content: " ";
+    background-image:url("/assets/imags/top-categories/Camera.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 33.94px;
+    height: 29.71px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.topcat-card-text-p{
+    font-family:"Poppins", sans-serif ;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D9ECFF;
+}
+.topcat-card-img,.topcat-card-div-img ,.topcat-card-text-p{
+    background: none;
+}
+
+.topcat-bar-div {
+    position: relative;
+}
+.topcat-bar-div::before{
+
+    content: " ";
+    background-image:url("/assets/imags/top-categories/Vector.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 28.71px;
+    left: 3%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.topcat-bar-div::after{
+
+    content: " ";
+    background-image:url("/assets/imags/top-categories/Vector1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 28.71px;
+    right: 3%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}

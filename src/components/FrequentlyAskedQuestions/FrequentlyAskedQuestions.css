@@ -1,0 +1,77 @@
+.faq-section{
+    width: 89.75%;
+    margin: 94px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-section .faq-left-div{
+    width: 31.45%;
+}
+.faq-section .faq-left-div .faq-main-head{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    color: #D9ECFF;
+}
+.faq-section .faq-left-div .faq-sub-text-1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.faq-section .faq-left-div .faq-sub-text-2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.faq-section .faq-left-div .faq-btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FAB437;
+    font-family:"poppins", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.faq-section .faq-right-container-div{
+    width: 59.15%;
+    height: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.faq-section .faq-right-container-div .faq-right-item .faq-right-item-q{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-section .faq-right-container-div .faq-right-item .faq-main{
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #D9ECFF;
+}
+.faq-plus-img{
+    cursor: pointer;
+}
+.faq-right-item {
+    border-bottom: #E1EFFF80 1px solid;
+    height: 100%;
+    align-content: center;
+}
+.faq-right-item .answer{
+    font-family: "poppins", sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 32px;
+    color: #D9ECFF;
+}
